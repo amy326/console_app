@@ -1,0 +1,11 @@
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\bin\Debug\EMS-windows-app.exe.config
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\bin\Debug\EMS-windows-app.exe
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\bin\Debug\EMS-windows-app.pdb
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS-windows-app.csprojResolveAssemblyReference.cache
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS_windows_app.Properties.Resources.resources
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS-windows-app.csproj.GenerateResource.cache
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS-windows-app.csproj.CoreCompileInputs.cache
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS-windows-app.exe
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS-windows-app.pdb
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS_windows_app.LogIn.resources
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS_windows_app.审核登记.resources

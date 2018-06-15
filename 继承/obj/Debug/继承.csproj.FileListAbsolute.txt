@@ -1,0 +1,7 @@
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\继承\bin\Debug\继承.exe.config
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\继承\bin\Debug\继承.exe
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\继承\bin\Debug\继承.pdb
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\继承\obj\Debug\继承.csprojResolveAssemblyReference.cache
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\继承\obj\Debug\继承.csproj.CoreCompileInputs.cache
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\继承\obj\Debug\继承.exe
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\继承\obj\Debug\继承.pdb

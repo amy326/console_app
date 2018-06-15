@@ -1,0 +1,7 @@
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\ConsoleApp1-视频教学\obj\Debug\ConsoleApp1-视频教学.csprojResolveAssemblyReference.cache
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\ConsoleApp1-视频教学\obj\Debug\ConsoleApp1-视频教学.csproj.CoreCompileInputs.cache
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\ConsoleApp1-视频教学\bin\Debug\ConsoleApp1-视频教学.exe.config
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\ConsoleApp1-视频教学\bin\Debug\ConsoleApp1-视频教学.exe
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\ConsoleApp1-视频教学\bin\Debug\ConsoleApp1-视频教学.pdb
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\ConsoleApp1-视频教学\obj\Debug\ConsoleApp1-视频教学.exe
+C:\Users\zyt\source\repos\ConsoleApp1-视频教学\ConsoleApp1-视频教学\obj\Debug\ConsoleApp1-视频教学.pdb

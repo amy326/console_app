@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1-视频教学", "ConsoleApp1-视频教学\ConsoleApp1-视频教学.csproj", "{D98E15CE-16E7-444F-89D8-4B31F04D4A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "构造函数", "ConsoleApp2\构造函数.csproj", "{7AE8EF59-3025-4440-8600-0C380A13625B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "继承", "继承\继承.csproj", "{9076BA4B-7E48-4DD6-A00B-16AF1B7C3569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态", "多态\多态.csproj", "{5CD4820A-9B73-448F-B184-8013FACEE8D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "接口", "接口\接口.csproj", "{EE7B4043-5951-4309-B94E-CFD66A64D58B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS-windows-app", "EMS-windows-app\EMS-windows-app.csproj", "{79B1D342-E4A5-43BA-9748-F29C60C3213A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D98E15CE-16E7-444F-89D8-4B31F04D4A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98E15CE-16E7-444F-89D8-4B31F04D4A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98E15CE-16E7-444F-89D8-4B31F04D4A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98E15CE-16E7-444F-89D8-4B31F04D4A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE8EF59-3025-4440-8600-0C380A13625B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE8EF59-3025-4440-8600-0C380A13625B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE8EF59-3025-4440-8600-0C380A13625B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE8EF59-3025-4440-8600-0C380A13625B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9076BA4B-7E48-4DD6-A00B-16AF1B7C3569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9076BA4B-7E48-4DD6-A00B-16AF1B7C3569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9076BA4B-7E48-4DD6-A00B-16AF1B7C3569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9076BA4B-7E48-4DD6-A00B-16AF1B7C3569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD4820A-9B73-448F-B184-8013FACEE8D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD4820A-9B73-448F-B184-8013FACEE8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD4820A-9B73-448F-B184-8013FACEE8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD4820A-9B73-448F-B184-8013FACEE8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7B4043-5951-4309-B94E-CFD66A64D58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7B4043-5951-4309-B94E-CFD66A64D58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7B4043-5951-4309-B94E-CFD66A64D58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7B4043-5951-4309-B94E-CFD66A64D58B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B1D342-E4A5-43BA-9748-F29C60C3213A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B1D342-E4A5-43BA-9748-F29C60C3213A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B1D342-E4A5-43BA-9748-F29C60C3213A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B1D342-E4A5-43BA-9748-F29C60C3213A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2BB3F3F-A4D1-4386-97C1-0172CE72E828}
+	EndGlobalSection
+EndGlobal
