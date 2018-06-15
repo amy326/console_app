@@ -9,3 +9,14 @@ C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS
 C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS-windows-app.pdb
 C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS_windows_app.LogIn.resources
 C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS_windows_app.审核登记.resources
+\\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS-windows-app.csprojResolveAssemblyReference.cache
+\\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS_windows_app.审核登记.resources
+\\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS_windows_app.LogIn.resources
+\\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS_windows_app.Properties.Resources.resources
+\\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS-windows-app.csproj.GenerateResource.cache
+\\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS-windows-app.csproj.CoreCompileInputs.cache
+\\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS-windows-app.exe
+\\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS-windows-app.pdb
+\\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\bin\Debug\EMS-windows-app.exe.config
+\\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\bin\Debug\EMS-windows-app.exe
+\\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\bin\Debug\EMS-windows-app.pdb

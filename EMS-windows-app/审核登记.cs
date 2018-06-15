@@ -56,11 +56,14 @@ namespace EMS_windows_app
         private void 审核登记_Load_1(object sender, EventArgs e)
         {
             TreeNode tr1 = treeView1.Nodes.Add("设计二院");
+            toolStripStatusLabel2.Text = DateTime.Now.ToString();
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
             MessageBox.Show("" + e.Node.Tag);
         }
+
+        
     }
 }
