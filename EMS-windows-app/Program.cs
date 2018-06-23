@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data;
+using System.Data.SqlClient;
+
+
 
 namespace EMS_windows_app
 {
@@ -16,7 +20,9 @@ namespace EMS_windows_app
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 审核登记());
+            Application.Run(new 管理员());
         }
+
+        
     }
 }

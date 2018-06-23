@@ -23,7 +23,9 @@ namespace EMS_windows_app
         private void Button1_Click(object sender, EventArgs e)
         {
             //this.Close();
+            MessageBox.Show("是否登录", "提示", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             shenhe.Show();  
+
         }      
         private void buttonhide_Click(object sender, EventArgs e)
         {
@@ -72,9 +74,7 @@ namespace EMS_windows_app
             frm2.Show();
             frm2.MdiParent = this; //子窗体停留在父窗体中
 
-            Form3 frm3 = new Form3();
-            frm3.Show();
-            frm3.MdiParent = this;
+          
 
         }
 

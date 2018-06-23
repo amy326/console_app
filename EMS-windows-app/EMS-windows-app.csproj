@@ -51,25 +51,25 @@
     <Compile Include="审核登记.Designer.cs">
       <DependentUpon>审核登记.cs</DependentUpon>
     </Compile>
-    <Compile Include="登录框.cs">
+    <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="登录框.Designer.cs">
-      <DependentUpon>登录框.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="管理员.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员.Designer.cs">
+      <DependentUpon>管理员.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="审核登记.resx">
       <DependentUpon>审核登记.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="登录框.resx">
-      <DependentUpon>登录框.cs</DependentUpon>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,6 +80,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="管理员.resx">
+      <DependentUpon>管理员.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

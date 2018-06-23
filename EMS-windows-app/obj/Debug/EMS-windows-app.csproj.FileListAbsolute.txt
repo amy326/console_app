@@ -20,3 +20,4 @@ C:\Users\zyt\source\repos\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS
 \\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\bin\Debug\EMS-windows-app.exe.config
 \\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\bin\Debug\EMS-windows-app.exe
 \\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\bin\Debug\EMS-windows-app.pdb
+\\Mac\Home\c#\ConsoleApp1-视频教学\EMS-windows-app\obj\Debug\EMS_windows_app.管理员.resources
