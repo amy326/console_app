@@ -135,9 +135,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(279, 111);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 12);
+            this.label5.Size = new System.Drawing.Size(23, 12);
             this.label5.TabIndex = 9;
-            this.label5.Text = "label5";
+            this.label5.Text = "   ";
             // 
             // 管理员
             // 
