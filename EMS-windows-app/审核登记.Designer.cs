@@ -30,14 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(审核登记));
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("道路交通");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("给排水");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("结构");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("设计一院", new System.Windows.Forms.TreeNode[] {
-            treeNode21,
-            treeNode22,
-            treeNode23});
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("总工办");
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("道路交通");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("给排水");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("结构");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("设计一院", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3});
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("总工办");
             this.前期checkBox1 = new System.Windows.Forms.CheckBox();
             this.方案checkBox2 = new System.Windows.Forms.CheckBox();
             this.初步设计checkBox3 = new System.Windows.Forms.CheckBox();
@@ -91,7 +91,7 @@
             // 初步设计checkBox3
             // 
             this.初步设计checkBox3.AutoSize = true;
-            this.初步设计checkBox3.Location = new System.Drawing.Point(81, 61);
+            this.初步设计checkBox3.Location = new System.Drawing.Point(12, 61);
             this.初步设计checkBox3.Name = "初步设计checkBox3";
             this.初步设计checkBox3.Size = new System.Drawing.Size(72, 16);
             this.初步设计checkBox3.TabIndex = 2;
@@ -101,7 +101,7 @@
             // 施工图checkBox4
             // 
             this.施工图checkBox4.AutoSize = true;
-            this.施工图checkBox4.Location = new System.Drawing.Point(246, 61);
+            this.施工图checkBox4.Location = new System.Drawing.Point(99, 61);
             this.施工图checkBox4.Name = "施工图checkBox4";
             this.施工图checkBox4.Size = new System.Drawing.Size(60, 16);
             this.施工图checkBox4.TabIndex = 3;
@@ -110,7 +110,7 @@
             // 
             // 审核意见richTextBox1
             // 
-            this.审核意见richTextBox1.Location = new System.Drawing.Point(81, 94);
+            this.审核意见richTextBox1.Location = new System.Drawing.Point(12, 94);
             this.审核意见richTextBox1.Name = "审核意见richTextBox1";
             this.审核意见richTextBox1.Size = new System.Drawing.Size(159, 46);
             this.审核意见richTextBox1.TabIndex = 4;
@@ -138,24 +138,24 @@
             // 
             // treeView1
             // 
-            this.treeView1.Location = new System.Drawing.Point(286, 124);
+            this.treeView1.Location = new System.Drawing.Point(198, 61);
             this.treeView1.Name = "treeView1";
-            treeNode21.ImageIndex = 1;
-            treeNode21.Name = "节点2";
-            treeNode21.Text = "道路交通";
-            treeNode22.Name = "节点3";
-            treeNode22.Text = "给排水";
-            treeNode23.Name = "节点4";
-            treeNode23.Text = "结构";
-            treeNode24.Name = "节点0";
-            treeNode24.Tag = "备注";
-            treeNode24.Text = "设计一院";
-            treeNode25.Name = "节点1";
-            treeNode25.Text = "总工办";
+            treeNode1.ImageIndex = 1;
+            treeNode1.Name = "节点2";
+            treeNode1.Text = "道路交通";
+            treeNode2.Name = "节点3";
+            treeNode2.Text = "给排水";
+            treeNode3.Name = "节点4";
+            treeNode3.Text = "结构";
+            treeNode4.Name = "节点0";
+            treeNode4.Tag = "备注";
+            treeNode4.Text = "设计一院";
+            treeNode5.Name = "节点1";
+            treeNode5.Text = "总工办";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode24,
-            treeNode25});
-            this.treeView1.Size = new System.Drawing.Size(121, 97);
+            treeNode4,
+            treeNode5});
+            this.treeView1.Size = new System.Drawing.Size(169, 50);
             this.treeView1.TabIndex = 6;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
@@ -184,7 +184,7 @@
             this.编辑ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(480, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(621, 25);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -201,19 +201,19 @@
             // 新建ToolStripMenuItem1
             // 
             this.新建ToolStripMenuItem1.Name = "新建ToolStripMenuItem1";
-            this.新建ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.新建ToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
             this.新建ToolStripMenuItem1.Text = "新建(&N)";
             // 
             // 打开ToolStripMenuItem1
             // 
             this.打开ToolStripMenuItem1.Name = "打开ToolStripMenuItem1";
-            this.打开ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.打开ToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
             this.打开ToolStripMenuItem1.Text = "打开(&O)";
             // 
             // 退出ToolStripMenuItem1
             // 
             this.退出ToolStripMenuItem1.Name = "退出ToolStripMenuItem1";
-            this.退出ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.退出ToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
             this.退出ToolStripMenuItem1.Text = "退出(&W)";
             // 
             // 编辑ToolStripMenuItem
@@ -229,7 +229,7 @@
             this.toolStripSeparator1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 25);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(480, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(621, 25);
             this.toolStrip1.TabIndex = 8;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -251,9 +251,9 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.toolStripStatusLabel2});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 211);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 270);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(480, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(621, 22);
             this.statusStrip1.TabIndex = 9;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -272,7 +272,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(480, 233);
+            this.ClientSize = new System.Drawing.Size(621, 292);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.treeView1);
