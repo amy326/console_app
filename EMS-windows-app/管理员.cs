@@ -84,6 +84,8 @@ namespace EMS_windows_app
             {
                 label5.Text = "添加失败";
             }
+
+            con.Close();
         }
     }
 }
