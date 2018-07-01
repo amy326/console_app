@@ -64,7 +64,6 @@ namespace EMS_windows_app
             
             //实例化数据库连接对象
             SqlConnection con = new SqlConnection("Server = CA9A; User Id = sa; Pwd = Amy7895123; DataBase = amy ");
-
             //定义添加数据库的sql语句
             string strsql = "insert into dbo.审核信息(项目编号, 项目经理) values('" + textBox1_管理员添加.Text + "', '" + Convert.ToString(textBox2_管理员添加.Text) + "')" ;
             SqlCommand comm = new SqlCommand(strsql, con); // 实例化sqlcommand对象
@@ -79,13 +78,13 @@ namespace EMS_windows_app
             {
                 label5.Text = "添加成功";
             }
-
             else
             {
                 label5.Text = "添加失败";
             }
 
-            con.Close();
+            con.Close();//一定要记得关闭数据库释放资源
+
         }
     }
 }
