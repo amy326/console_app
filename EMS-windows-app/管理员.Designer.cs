@@ -40,6 +40,8 @@
             this.textBox1_管理员添加 = new System.Windows.Forms.TextBox();
             this.textBox2_管理员添加 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox3_管理员添加 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // openFileDialog1_管理员
@@ -90,7 +92,7 @@
             // 
             // button1_管理员添加
             // 
-            this.button1_管理员添加.Location = new System.Drawing.Point(361, 111);
+            this.button1_管理员添加.Location = new System.Drawing.Point(362, 148);
             this.button1_管理员添加.Name = "button1_管理员添加";
             this.button1_管理员添加.Size = new System.Drawing.Size(75, 23);
             this.button1_管理员添加.TabIndex = 4;
@@ -133,17 +135,36 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(279, 111);
+            this.label5.Location = new System.Drawing.Point(277, 148);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(23, 12);
             this.label5.TabIndex = 9;
             this.label5.Text = "   ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(277, 100);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(53, 12);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "项目名称";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // textBox3_管理员添加
+            // 
+            this.textBox3_管理员添加.Location = new System.Drawing.Point(336, 100);
+            this.textBox3_管理员添加.Name = "textBox3_管理员添加";
+            this.textBox3_管理员添加.Size = new System.Drawing.Size(100, 21);
+            this.textBox3_管理员添加.TabIndex = 11;
             // 
             // 管理员
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(503, 238);
+            this.Controls.Add(this.textBox3_管理员添加);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox2_管理员添加);
             this.Controls.Add(this.textBox1_管理员添加);
@@ -176,5 +197,7 @@
         private System.Windows.Forms.TextBox textBox1_管理员添加;
         private System.Windows.Forms.TextBox textBox2_管理员添加;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox3_管理员添加;
     }
 }

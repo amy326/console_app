@@ -20,7 +20,7 @@ namespace EMS_windows_app
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new 管理员());
+            Application.Run(new 审核登记());
         }
 
         

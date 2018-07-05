@@ -30,14 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(审核登记));
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("道路交通");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("给排水");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("结构");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("设计一院", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3});
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("总工办");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("道路交通");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("给排水");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("结构");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("设计一院", new System.Windows.Forms.TreeNode[] {
+            treeNode6,
+            treeNode7,
+            treeNode8});
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("总工办");
             this.前期checkBox1 = new System.Windows.Forms.CheckBox();
             this.方案checkBox2 = new System.Windows.Forms.CheckBox();
             this.初步设计checkBox3 = new System.Windows.Forms.CheckBox();
@@ -61,6 +61,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -138,23 +139,23 @@
             // 
             // treeView1
             // 
-            this.treeView1.Location = new System.Drawing.Point(198, 61);
+            this.treeView1.Location = new System.Drawing.Point(186, 61);
             this.treeView1.Name = "treeView1";
-            treeNode1.ImageIndex = 1;
-            treeNode1.Name = "节点2";
-            treeNode1.Text = "道路交通";
-            treeNode2.Name = "节点3";
-            treeNode2.Text = "给排水";
-            treeNode3.Name = "节点4";
-            treeNode3.Text = "结构";
-            treeNode4.Name = "节点0";
-            treeNode4.Tag = "备注";
-            treeNode4.Text = "设计一院";
-            treeNode5.Name = "节点1";
-            treeNode5.Text = "总工办";
+            treeNode6.ImageIndex = 1;
+            treeNode6.Name = "节点2";
+            treeNode6.Text = "道路交通";
+            treeNode7.Name = "节点3";
+            treeNode7.Text = "给排水";
+            treeNode8.Name = "节点4";
+            treeNode8.Text = "结构";
+            treeNode9.Name = "节点0";
+            treeNode9.Tag = "备注";
+            treeNode9.Text = "设计一院";
+            treeNode10.Name = "节点1";
+            treeNode10.Text = "总工办";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode4,
-            treeNode5});
+            treeNode9,
+            treeNode10});
             this.treeView1.Size = new System.Drawing.Size(169, 50);
             this.treeView1.TabIndex = 6;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
@@ -184,7 +185,7 @@
             this.编辑ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(621, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(503, 25);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -229,7 +230,7 @@
             this.toolStripSeparator1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 25);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(621, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(503, 25);
             this.toolStrip1.TabIndex = 8;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -253,7 +254,7 @@
             this.toolStripStatusLabel2});
             this.statusStrip1.Location = new System.Drawing.Point(0, 270);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(621, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(503, 22);
             this.statusStrip1.TabIndex = 9;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -268,11 +269,21 @@
             this.toolStripStatusLabel2.Size = new System.Drawing.Size(131, 17);
             this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(246, 135);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(229, 96);
+            this.richTextBox1.TabIndex = 10;
+            this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            // 
             // 审核登记
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(621, 292);
+            this.ClientSize = new System.Drawing.Size(503, 292);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.treeView1);
@@ -322,5 +333,6 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
